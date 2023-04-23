@@ -1,0 +1,11 @@
+function addOnlyNums(...args) {
+    let result = 0; 
+    for (let value of args){
+        if (typeof value === 'string' ) {
+            continue;
+        }
+result +=value;
+}   
+return result
+
+}

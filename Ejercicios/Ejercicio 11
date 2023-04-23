@@ -1,0 +1,4 @@
+function onlyUniques(...args) {
+  const set = new Set(args);
+  return [...set];
+}
