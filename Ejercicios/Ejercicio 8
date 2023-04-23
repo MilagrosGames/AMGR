@@ -1,0 +1,7 @@
+function add(...args) {
+ let result = 0;
+   for (let number of args) {
+   result += number;
+  }
+    return result;
+}
